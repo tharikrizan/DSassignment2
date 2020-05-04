@@ -1,0 +1,73 @@
+Web client
+	prerequisites:
+		Node and npm
+
+	installation steps
+	1.cd to the project "fire-alarm-app" and run
+	  "npm install" and then "npm start"
+
+Desktop client(Both RMI server and application)
+	Prerequistes:
+		Java and JDk
+
+	installation steps	
+		1. Go to the bin directory of the "clientApplication" 
+     		   project and run "rmi registry" in the cmd
+		2. Then go to the "rmiserver" package and run the
+  		   "server.java" file as java application
+		3. Then go to the "clientApplication" package and run
+ 		   the "Sensorinformation.java" file as java application
+Fire Sensor 
+	Prerequisites
+		Node
+		NPM(comes with Node)
+	Instructions
+
+		1. CD into the project folder and run the following command npm install
+
+		2. Run the application npm run start
+
+
+Fire Sensor API
+
+	Prerequisites:
+
+		PHP 7.0+
+		Composer
+		XAMPP or any equivalent (for local development)
+	
+	Steps for getting started:
+
+		CD into the project folder
+
+			cd FireSensorAPI
+
+		Run composer install (make sure that the XAMPP server is running)
+
+			composer install
+
+		Create a .env file
+
+			cp .env.example .env
+
+		Generate a unique key
+
+			php artisan key:generate
+
+		Update the DB info in the .env, and then run the migrations (make sure DB server is running)
+
+			php artisan migrate
+
+		Passport initialization (You will get the keys after you run this)
+
+			php artisan passport:install
+
+		Run the API
+
+			php artisan serve
+
+		
+		Now the local server will be running, you can start testing the API using 
+		a program like Postman or Insomnia by making web requests to the following end points
+
+
