@@ -1,5 +1,5 @@
 # DSassignment2
-Please note that :"FireSensorAPI" reffers to the Restful Web Services
-                  "FireSensorApplication" reffers to the Dummy sensor
-                  "Client Application" reffers to the Desktop application and RMI server
+Please note that :"FireSensorAPI" reffers to the Restful Web Services <br/>
+                  "FireSensorApplication" reffers to the Dummy sensor <br/>
+                  "Client Application" reffers to the Desktop application and RMI server<br/>
                   "fire-alarm-app" reffers to the web client
