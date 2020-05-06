@@ -1,5 +1,5 @@
 import React from "react";
-
+//this is a static message in the top of the application
 const DangerAndNormal = () => {
   const headerStyle = {
     display: "flex",
