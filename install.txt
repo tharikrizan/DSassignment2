@@ -12,7 +12,7 @@ Desktop client(Both RMI server and application)
 
 	installation steps	
 		1. Go to the bin directory of the "clientApplication" 
-     		   project and run "rmi registry" in the cmd
+     		   project and run "start rmiregistry" in the cmd
 		2. Then go to the "rmiserver" package and run the
   		   "server.java" file as java application
 		3. Then go to the "clientApplication" package and run
@@ -23,9 +23,9 @@ Fire Sensor
 		NPM(comes with Node)
 	Instructions
 
-		1. CD into the project folder and run the following command npm install
+		1. CD into the project folder and run the following command "npm install"
 
-		2. Run the application npm run start
+		2. Run the application "npm start"
 
 
 Fire Sensor API
